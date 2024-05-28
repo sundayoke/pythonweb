@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,14 +6,20 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jan 10 18:20:52 2024
+# Make data base, printed on Tue May 28 18:35:19 2024
 
 # Variables
 
 # environment
 LC_ALL = C
 # environment
+LC_NAME = C.UTF-8
+# environment
+LC_NUMERIC = C.UTF-8
+# environment
 VSCODE_CWD = /home/ubuntu
+# environment
+LC_ADDRESS = C.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
@@ -32,6 +36,8 @@ PWD = /var/www/html/peakstream.net/public_html/pythonweb
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/ubuntu/.vscode-server
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -54,6 +60,8 @@ LESSOPEN = | /usr/bin/lesspipe %s
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXKL5ypc/agent.3028116
 # default
 .SHELLFLAGS := -c
 # automatic
@@ -63,6 +71,8 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
+SSL_CERT_FILE = /usr/lib/ssl/certs/ca-certificates.crt
+# environment
 XDG_SESSION_TYPE = tty
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -70,8 +80,12 @@ XDG_SESSION_TYPE = tty
 *F = $(notdir $*)
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+SSL_CERT_DIR = /usr/lib/ssl/certs
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_CLI_REQUIRE_TOKEN = b2ef549b-61b8-4249-b4eb-071e856d5faa
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
 # default
@@ -81,21 +95,27 @@ SHELL = /bin/sh
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
+SHLVL = 1
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # default
 MAKEFILES := 
 # environment
 MOTD_SHOWN = pam
+# environment
+LC_MONETARY = C.UTF-8
 # automatic
 ^F = $(notdir $^)
 # environment
-SSH_CLIENT = 46.11.178.75 64156 22
+LC_TIME = C.UTF-8
+# environment
+SSH_CLIENT = 78.133.44.80 44258 22
+# environment
+LC_TELEPHONE = C.UTF-8
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
@@ -107,7 +127,7 @@ LS_COLORS =
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-BROWSER = /home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh
+BROWSER = /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh
 # environment
 LOGNAME = ubuntu
 # makefile
@@ -117,13 +137,17 @@ USER = ubuntu
 # default
 MAKE_VERSION := 4.3
 # environment
+LC_MEASUREMENT = C.UTF-8
+# environment
 VSCODE_AGENT_FOLDER = /home/ubuntu/.vscode-server
 # environment
-_ = /home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node
+_ = /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node
+# environment
+LC_PAPER = C.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-f3b0b7d6-1552-4d7d-8ee3-1e5ba0d792c5.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-2a5a083c-1623-4d17-bdd6-d02e0463257d.sock
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -133,7 +157,7 @@ HOME = /home/ubuntu
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-XDG_SESSION_ID = 162
+XDG_SESSION_ID = 10938
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -143,9 +167,11 @@ SUFFIXES :=
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SSH_CONNECTION = 46.11.178.75 64156 51.195.254.136 22
+LC_IDENTIFICATION = C.UTF-8
+# environment
+SSH_CONNECTION = 78.133.44.80 44258 51.195.254.136 22
 # variable set hash-table stats:
-# Load=66/1024=6%, Rehash=0, Collisions=1/93=1%
+# Load=80/1024=8%, Rehash=0, Collisions=5/107=5%
 
 # Pattern-specific Variable Values
 
@@ -153,9 +179,9 @@ SSH_CONNECTION = 46.11.178.75 64156 51.195.254.136 22
 
 # Directories
 
-# . (device 2049, inode 535348): 17 files, no impossibilities.
+# . (device 2049, inode 535348): 22 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 22 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -205,12 +231,14 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 245 B / avg = 9 B
-# current buf: size = 8162 B / used = 245 B / count = 25 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 309 B / avg = 10 B
+# current buf: size = 8162 B / used = 309 B / count = 30 / avg = 10 B
 
-# strcache performance: lookups = 28 / hit rate = 10%
+# strcache performance: lookups = 33 / hit rate = 9%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/28=0%
-# Finished Make data base on Wed Jan 10 18:20:52 2024
+# Load=30/8192=0%, Rehash=0, Collisions=0/33=0%
+# Finished Make data base on Tue May 28 18:35:19 2024
 
  
+make: *** No rule to make target 'all'.  Stop.
+
