@@ -1,4 +1,4 @@
-#!/var/www/html/peakstream.net/public_html/pythonweb/env/bin/python
+#!/home/sunday/Documents/pythonweb/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

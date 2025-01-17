@@ -1,177 +1,283 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.3
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 28 18:35:19 2024
+# Make data base, printed on Fri Jan 17 13:05:25 2025
 
 # Variables
 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
 # environment
-LC_ALL = C
-# environment
-LC_NAME = C.UTF-8
-# environment
-LC_NUMERIC = C.UTF-8
-# environment
-VSCODE_CWD = /home/ubuntu
-# environment
-LC_ADDRESS = C.UTF-8
+DESKTOP_SESSION = gnome-wayland
 # default
-MAKE_COMMAND := make
+.SHELLFLAGS := -c
 # environment
-VSCODE_HANDLES_SIGPIPE = true
+__NIXOS_SET_ENVIRONMENT_DONE = 1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# default
-.VARIABLES := 
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.TK6O02
 # environment
-PWD = /var/www/html/peakstream.net/public_html/pythonweb
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/ubuntu/.vscode-server
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# automatic
-%F = $(notdir $%)
-# environment
-LANG = C
-# default
-.LOADED := 
-# default
-.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+GDMSESSION = gnome-wayland
 # makefile
-MAKEFLAGS = pqrR
+CURDIR := /home/sunday/Documents/pythonweb
 # makefile
-CURDIR := /var/www/html/peakstream.net/public_html/pythonweb
+SHELL = /bin/sh
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+NIXPKGS_CONFIG = /etc/nix/nixpkgs-config.nix
 # environment
-LESSOPEN = | /usr/bin/lesspipe %s
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/nix/store/gzl8adv0dcrdkr88003519albkrngahq-vscode-1.96.2/lib/vscode/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
 # environment
-MFLAGS = -pqrR
+_ = /run/current-system/sw/bin/make
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-XXXXKL5ypc/agent.3028116
-# default
-.SHELLFLAGS := -c
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
+JOURNAL_STREAM = 9:50260
+# environment
+XDG_CONFIG_DIRS = /etc/xdg:/home/sunday/.nix-profile/etc/xdg:/nix/profile/etc/xdg:/home/sunday/.local/state/nix/profile/etc/xdg:/etc/profiles/per-user/sunday/etc/xdg:/nix/var/nix/profiles/default/etc/xdg:/run/current-system/sw/etc/xdg:/nix/store/ra1chwq2ipg109gqsh7vgm8wfrmh6v6s-gnome-settings-daemon-47.2/etc/xdg
+# environment
+VSCODE_PID = 31362
+# environment
+SYSTEMD_EXEC_PID = 5700
 # makefile
 MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
 # environment
-SSL_CERT_FILE = /usr/lib/ssl/certs/ca-certificates.crt
+GIO_LAUNCHED_DESKTOP_FILE = /run/current-system/sw/share/applications/code.desktop
+# 'override' directive
+GNUMAKEFLAGS := 
 # environment
-XDG_SESSION_TYPE = tty
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# automatic
-*F = $(notdir $*)
+MAKELEVEL := 0
+# environment
+SPEECHD_CMD = /nix/store/f6lprmzy19595wmx670112j5hqb0y3m5-speech-dispatcher-0.11.5/bin/speech-dispatcher
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-SSL_CERT_DIR = /usr/lib/ssl/certs
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
+GI_TYPELIB_PATH = /nix/store/xdxwr90hkhmy6kqnbkmz52p5y9ijhbbb-glib-2.82.1/lib/girepository-1.0:/nix/store/qyw4nyrsvr43cd6p6nky2134raf3r02s-gdk-pixbuf-2.42.12/lib/girepository-1.0:/nix/store/rp2xgwl86ijqk35i9vv33vqwyd8ymh3d-graphene-1.10.8/lib/girepository-1.0:/nix/store/rcki87idznfzczcg040nnzxfn5g3941a-harfbuzz-10.0.1/lib/girepository-1.0:/nix/store/mf7d1b92rhl2gcny2g677ilkk89yd9a2-pango-1.54.0/lib/girepository-1.0:/nix/store/9wrcbknr817rmn9if5s9qfj9wrrmn4z9-gsettings-desktop-schemas-47.1/lib/girepository-1.0:/nix/store/46rmx4gxkx9nsa10ay3n7bb7zmgrdi0v-gtk4-4.16.3/lib/girepository-1.0:/nix/store/k4bgvf8sqyfijm7mw9y0chkvg12ra14h-librsvg-2.58.3/lib/girepository-1.0:/nix/store/svqk3276zbjwb8dhl0yx60s6wdilgw12-gobject-introspection-wrapped-1.82.0/lib/girepository-1.0:/nix/store/4m07ivz8hrjcwn73h1fq1b3wwkqr75cl-gobject-introspection-1.82.0/lib/girepository-1.0:/nix/store/bq0cvqmnczd42qfh8f41yb64nby9pavl-gcr-4.3.0/lib/girepository-1.0:/nix/store/6qy135i101splam0salqprws30svv262-accountsservice-23.13.9/lib/girepository-1.0:/nix/store/1bz28zggdfkxccv7vahzs4ds33ds113z-libsecret-0.21.4/lib/girepository-1.0:/nix/store/yw2p7k6fnlhm6zga9m6qsikzyy3v97ij-polkit-124/lib/girepository-1.0:/nix/store/j3y2fx1m2g512micjlvbdgqglfrixxfz-networkmanager-1.48.10/lib/girepository-1.0:/nix/store/zlqzd98n7mz8sshmp7jqp2jndpzdxpwg-libical-3.0.18/lib/girepository-1.0:/nix/store/84nvkfzy59s3q8zk2s0528mvqi46x24x-libsoup-3.6.1/lib/girepository-1.0:/nix/store/ldk5kj0y7hpg0f2p5al47pyrk7papwqj-json-glib-1.10.0/lib/girepository-1.0:/nix/store/cjm4wf993wfs95j4ly2q6d5gkdvypa7p-evolution-data-server-3.54.2/lib/girepository-1.0:/nix/store/xvr7m47d28csrmdw3749bwnw2iw7gb6p-libadwaita-1.6.2/lib/girepository-1.0:/nix/store/3qpzpipky190dshibnls10grrna729vi-gdm-47.0/lib/girepository-1.0:/nix/store/ik4c27f0v6dv2znfz4019cz3p3pbsbdf-geoclue-2.7.2/lib/girepository-1.0:/nix/store/a35537yi64q0g9abq93y36wv917pqj3d-gnome-bluetooth-47.1/lib/girepository-1.0:/nix/store/vmy1jy3kx91v99y4r4kba9s70jn3a40v-at-spi2-core-2.54.0/lib/girepository-1.0:/nix/store/69dhvj8ik47csxisya2zr01a9wy4q6sj-upower-1.90.4/lib/girepository-1.0:/nix/store/75r9jqp83n28s278k9adkx64907gchwx-ibus-1.5.30/lib/girepository-1.0:/nix/store/5n2cnpzg3qbp69bgk8kwxd5rn64yi7kn-gnome-desktop-44.1/lib/girepository-1.0:/nix/store/3m03hvbingf01p9113x9vx1089zjhsv0-gstreamer-1.24.10/lib/girepository-1.0:/nix/store/sqjn0zxrzbd228vjpwdzj7frdjqrga48-gst-plugins-base-1.24.10/lib/girepository-1.0:/nix/store/4q31z47sb7gw4xj51fly914rdw0sxmxd-libgweather-4.4.4/lib/girepository-1.0:/nix/store/b3vlj7z1q62s3amm66zps65hc1aqwqlj-libnma-1.10.6/lib/girepository-1.0:/nix/store/jkxl6xf05nx8r7klrqn1yrswz9hivbiv-gnome-autoar-0.4.5/lib/girepository-1.0
 # environment
-VSCODE_CLI_REQUIRE_TOKEN = b2ef549b-61b8-4249-b4eb-071e856d5faa
+INFOPATH = /home/sunday/.nix-profile/info:/home/sunday/.nix-profile/share/info:/nix/profile/info:/nix/profile/share/info:/home/sunday/.local/state/nix/profile/info:/home/sunday/.local/state/nix/profile/share/info:/etc/profiles/per-user/sunday/info:/etc/profiles/per-user/sunday/share/info:/nix/var/nix/profiles/default/info:/nix/var/nix/profiles/default/share/info:/run/current-system/sw/info:/run/current-system/sw/share/info
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+MANAGERPID = 5623
+# environment
+NAUTILUS_4_EXTENSION_DIR = /nix/store/5fxm3hyb31b85llr6pxahbi2c6h4rw0m-system-path/lib/nautilus/extensions-4
+# environment
+LESSOPEN = |/nix/store/bgc67f1mal86kkph0ghagw4gx4jxh151-lesspipe-2.17/bin/lesspipe.sh %s
+# environment
+LC_NAME = en_GB.UTF-8
+# environment
+LIBEXEC_PATH = /home/sunday/.nix-profile/libexec:/nix/profile/libexec:/home/sunday/.local/state/nix/profile/libexec:/etc/profiles/per-user/sunday/libexec:/nix/var/nix/profiles/default/libexec:/run/current-system/sw/libexec
+# environment
+VSCODE_CWD = /home/sunday
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session2
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
-# makefile
-SHELL = /bin/sh
+# environment
+PATH = /nix/store/sbrd3cb3y0v7m1s5g91967lbngnl7rxh-glib-2.82.1-bin/bin:/run/wrappers/bin:/home/sunday/.nix-profile/bin:/nix/profile/bin:/home/sunday/.local/state/nix/profile/bin:/etc/profiles/per-user/sunday/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin
+# environment
+LOCALE_ARCHIVE = /run/current-system/sw/lib/locale/locale-archive
+# environment
+SESSION_MANAGER = local/nixos:@/tmp/.ICE-unix/5675,unix/nixos:/tmp/.ICE-unix/5675
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /nix/store/k4bgvf8sqyfijm7mw9y0chkvg12ra14h-librsvg-2.58.3/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
+# environment
+NIX_USER_PROFILE_DIR = /nix/var/nix/profiles/per-user/sunday
+# environment
+QTWEBKIT_PLUGIN_PATH = /home/sunday/.nix-profile/lib/mozilla/plugins/:/nix/profile/lib/mozilla/plugins/:/home/sunday/.local/state/nix/profile/lib/mozilla/plugins/:/etc/profiles/per-user/sunday/lib/mozilla/plugins/:/nix/var/nix/profiles/default/lib/mozilla/plugins/:/run/current-system/sw/lib/mozilla/plugins/
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 4eed003f4d7a4ed9a3608887a45d4599
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/sunday
+# environment
+XDG_SESSION_DESKTOP = gnome-wayland
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 31342
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+XCURSOR_PATH = /home/sunday/.icons:/home/sunday/.local/share/icons:/home/sunday/.nix-profile/share/icons:/home/sunday/.nix-profile/share/pixmaps:/nix/profile/share/icons:/nix/profile/share/pixmaps:/home/sunday/.local/state/nix/profile/share/icons:/home/sunday/.local/state/nix/profile/share/pixmaps:/etc/profiles/per-user/sunday/share/icons:/etc/profiles/per-user/sunday/share/pixmaps:/nix/var/nix/profiles/default/share/icons:/nix/var/nix/profiles/default/share/pixmaps:/run/current-system/sw/share/icons:/run/current-system/sw/share/pixmaps
+# environment
+GNOME_SETUP_DISPLAY = :2
+# environment
+MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
+# environment
+__ETC_PROFILE_DONE = 1
+# environment
+PWD = /home/sunday/Documents/pythonweb
+# default
+.LOADED := 
+# environment
+GTK_PATH = /home/sunday/.nix-profile/lib/gtk-2.0:/home/sunday/.nix-profile/lib/gtk-3.0:/home/sunday/.nix-profile/lib/gtk-4.0:/nix/profile/lib/gtk-2.0:/nix/profile/lib/gtk-3.0:/nix/profile/lib/gtk-4.0:/home/sunday/.local/state/nix/profile/lib/gtk-2.0:/home/sunday/.local/state/nix/profile/lib/gtk-3.0:/home/sunday/.local/state/nix/profile/lib/gtk-4.0:/etc/profiles/per-user/sunday/lib/gtk-2.0:/etc/profiles/per-user/sunday/lib/gtk-3.0:/etc/profiles/per-user/sunday/lib/gtk-4.0:/nix/var/nix/profiles/default/lib/gtk-2.0:/nix/var/nix/profiles/default/lib/gtk-3.0:/nix/var/nix/profiles/default/lib/gtk-4.0:/run/current-system/sw/lib/gtk-2.0:/run/current-system/sw/lib/gtk-3.0:/run/current-system/sw/lib/gtk-4.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# environment
+XDG_DATA_DIRS = /nix/store/gzl8adv0dcrdkr88003519albkrngahq-vscode-1.96.2/share:/nix/store/9wrcbknr817rmn9if5s9qfj9wrrmn4z9-gsettings-desktop-schemas-47.1/share/gsettings-schemas/gsettings-desktop-schemas-47.1:/nix/store/73w2758yqw699qkpsgdqyz2bliq40xrf-gtk+3-3.24.43/share/gsettings-schemas/gtk+3-3.24.43:/nix/store/gimnpf48avlba3k1h49q1qmyd76g2il0-shared-mime-info-2.4/share:/nix/store/gp7g4mpxpczy2djl8zzxngqjmx5aqbii-gnome-shell-47.2/share:/nix/store/46rmx4gxkx9nsa10ay3n7bb7zmgrdi0v-gtk4-4.16.3/share/gsettings-schemas/gtk4-4.16.3:/nix/store/8nl1bqgcbcc0q9q4djzxb75dmaigrraa-gnome-keyring-46.2/share/gsettings-schemas/gnome-keyring-46.2:/nix/store/gp4ls9d04m5nlnk0h3g5xkxjgrxj7hs6-mutter-47.3/share/gsettings-schemas/mutter-47.3:/nix/store/cjm4wf993wfs95j4ly2q6d5gkdvypa7p-evolution-data-server-3.54.2/share/gsettings-schemas/evolution-data-server-3.54.2:/nix/store/3qpzpipky190dshibnls10grrna729vi-gdm-47.0/share/gsettings-schemas/gdm-47.0:/nix/store/47pvd02rsrxilrw704i6kgif8x1xkb7w-gnome-clocks-47.0/share/gsettings-schemas/gnome-clocks-47.0:/nix/store/75r9jqp83n28s278k9adkx64907gchwx-ibus-1.5.30/share/gsettings-schemas/ibus-1.5.30:/nix/store/ra1chwq2ipg109gqsh7vgm8wfrmh6v6s-gnome-settings-daemon-47.2/share/gsettings-schemas/gnome-settings-daemon-47.2:/nix/store/1ckvsq1yh73c0rqzdjypl0yncg3lxppj-pipewire-1.2.7/share/gsettings-schemas/pipewire-1.2.7:/nix/store/4q31z47sb7gw4xj51fly914rdw0sxmxd-libgweather-4.4.4/share/gsettings-schemas/libgweather-4.4.4:/nix/store/b3vlj7z1q62s3amm66zps65hc1aqwqlj-libnma-1.10.6/share/gsettings-schemas/libnma-1.10.6:/nix/store/gp7g4mpxpczy2djl8zzxngqjmx5aqbii-gnome-shell-47.2/share/gsettings-schemas/gnome-shell-47.2:/nix/store/r2jilf4j87999icpvnkm60xgmn9qd255-gnome-mimeapps/share:/nix/store/cdqlflh1av0kw12mvlzi43602py9fpjj-desktops/share:/home/sunday/.nix-profile/share:/nix/profile/share:/home/sunday/.local/state/nix/profile/share:/etc/profiles/per-user/sunday/share:/nix/var/nix/profiles/default/share:/run/current-system/sw/share:/nix/store/gp7g4mpxpczy2djl8zzxngqjmx5aqbii-gnome-shell-47.2/share/gsettings-schemas/gnome-shell-47.2:/nix/store/1kglbvgxdyhcjndih5rj9qryxaq6yfhy-gnome-shell-extensions-47.2/share/gsettings-schemas/gnome-shell-extensions-47.2:/nix/store/ikplax52c4xm2qnlhk7bj3fn0nq1vbd8-gnome-session-47.0.1/share:/nix/store/9wrcbknr817rmn9if5s9qfj9wrrmn4z9-gsettings-desktop-schemas-47.1/share/gsettings-schemas/gsettings-desktop-schemas-47.1:/nix/store/ra1chwq2ipg109gqsh7vgm8wfrmh6v6s-gnome-settings-daemon-47.2/share/gsettings-schemas/gnome-settings-daemon-47.2:/nix/store/ikplax52c4xm2qnlhk7bj3fn0nq1vbd8-gnome-session-47.0.1/share/gsettings-schemas/gnome-session-47.0.1:/nix/store/gp7g4mpxpczy2djl8zzxngqjmx5aqbii-gnome-shell-47.2/share
+# environment
+HOME = /home/sunday
+# environment
+LD_LIBRARY_PATH = /nix/store/6xpp0dwyrwbfim45xlbv12gdni809jrc-libdbusmenu-glib-16.04.0/lib
+# environment
+LC_MEASUREMENT = en_GB.UTF-8
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/sunday/.config/Code/CachedData/fabdb6a30b49f79a7aba0f2ad9df9b399473380f
+# environment
+LOGNAME = sunday
+# environment
+NIX_LD = /run/current-system/sw/share/nix-ld/lib/ld.so
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = en_GB.UTF-8
+# environment
+SSH_ASKPASS = /nix/store/4fvvjfsc0j2d79mxyjr3in4krsf1vacj-seahorse-47.0.1/libexec/seahorse/ssh-askpass
+# default
+MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
 # environment
-MAKELEVEL := 0
+NIX_PATH = nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos:nixos-config=/etc/nixos/configuration.nix:/nix/var/nix/profiles/per-user/root/channels
+# environment
+NIX_PROFILES = /run/current-system/sw /nix/var/nix/profiles/default /etc/profiles/per-user/sunday /home/sunday/.local/state/nix/profile /nix/profile /home/sunday/.nix-profile
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # default
-MAKE = $(MAKE_COMMAND)
+MAKE_VERSION := 4.2.1
 # environment
-PATH = /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-# default
-MAKEFILES := 
+EDITOR = nano
 # environment
-MOTD_SHOWN = pam
-# environment
-LC_MONETARY = C.UTF-8
-# automatic
-^F = $(notdir $^)
-# environment
-LC_TIME = C.UTF-8
-# environment
-SSH_CLIENT = 78.133.44.80 44258 22
-# environment
-LC_TELEPHONE = C.UTF-8
-# environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
-# automatic
-?F = $(notdir $?)
-# environment
-LS_COLORS = 
-# automatic
-+F = $(notdir $+)
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-BROWSER = /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh
-# environment
-LOGNAME = ubuntu
+LC_MONETARY = en_GB.UTF-8
 # makefile
 .DEFAULT_GOAL := 
 # environment
-USER = ubuntu
+XDG_CURRENT_DESKTOP = GNOME
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_GB.UTF-8
 # default
-MAKE_VERSION := 4.3
+MAKE_COMMAND := make
 # environment
-LC_MEASUREMENT = C.UTF-8
-# environment
-VSCODE_AGENT_FOLDER = /home/ubuntu/.vscode-server
-# environment
-_ = /home/ubuntu/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node
-# environment
-LC_PAPER = C.UTF-8
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-2a5a083c-1623-4d17-bdd6-d02e0463257d.sock
-# environment
-XDG_SESSION_CLASS = user
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /home/ubuntu
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-XDG_SESSION_ID = 10938
+OLDPWD = /home/sunday
 # default
-.RECIPEPREFIX := 
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-3498eead-1.96-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NIX_LD_LIBRARY_PATH = /run/current-system/sw/share/nix-ld/lib
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = en_GB.UTF-8
+# environment
+NO_AT_BRIDGE = 1
+# environment
+TERMINFO_DIRS = /home/sunday/.nix-profile/share/terminfo:/nix/profile/share/terminfo:/home/sunday/.local/state/nix/profile/share/terminfo:/etc/profiles/per-user/sunday/share/terminfo:/nix/var/nix/profiles/default/share/terminfo:/run/current-system/sw/share/terminfo
+# environment
+LC_IDENTIFICATION = en_GB.UTF-8
+# environment
+TZDIR = /etc/zoneinfo
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = en_GB.UTF-8
 # automatic
 <F = $(notdir $<)
+# environment
+USER = sunday
+# environment
+NIX_GSETTINGS_OVERRIDES_DIR = /nix/store/10d0zwyxsxzy0z34r6js9yakh0999pf2-gnome-gsettings-overrides/share/gsettings-schemas/nixos-gsettings-overrides/glib-2.0/schemas
+# environment
+LESSKEYIN_SYSTEM = /nix/store/dqb7s0ic4xn7s2fv1cskabfi6934y1ky-lessconfig
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# environment
+GST_PLUGIN_SYSTEM_PATH_1_0 = /nix/store/1ckvsq1yh73c0rqzdjypl0yncg3lxppj-pipewire-1.2.7/lib/gstreamer-1.0:/nix/store/3m03hvbingf01p9113x9vx1089zjhsv0-gstreamer-1.24.10/lib/gstreamer-1.0:/nix/store/sqjn0zxrzbd228vjpwdzj7frdjqrga48-gst-plugins-base-1.24.10/lib/gstreamer-1.0:/nix/store/r4lc4yj6rapy4i3dqd1mgfy1ga9yxhzb-gst-plugins-good-1.24.10/lib/gstreamer-1.0
+# environment
+MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure
 # default
 SUFFIXES := 
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+CHROME_DESKTOP = code.desktop
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+.INCLUDE_DIRS = /nix/store/k01x24cxnk8bp65vhvj9rkv06p6c79v7-gnumake-4.2.1/include
 # environment
-LC_IDENTIFICATION = C.UTF-8
+GJS_DEBUG_OUTPUT = stderr
 # environment
-SSH_CONNECTION = 78.133.44.80 44258 51.195.254.136 22
+GIO_EXTRA_MODULES = /nix/store/qhs8qxqsz441gwk039h2g8swzr7bcnqz-dconf-0.40.0-lib/lib/gio/modules:/nix/store/q9zsjgkm2wgxsyx0mghjngab0if043a1-glib-networking-2.80.0/lib/gio/modules:/nix/store/q9zsjgkm2wgxsyx0mghjngab0if043a1-glib-networking-2.80.0/lib/gio/modules:/nix/store/qhs8qxqsz441gwk039h2g8swzr7bcnqz-dconf-0.40.0-lib/lib/gio/modules:/nix/store/6nwylkns3qq92ny8df3b835j00hqjzvm-gvfs-1.56.1/lib/gio/modules:/nix/store/q9zsjgkm2wgxsyx0mghjngab0if043a1-glib-networking-2.80.0/lib/gio/modules:/nix/store/qhs8qxqsz441gwk039h2g8swzr7bcnqz-dconf-0.40.0-lib/lib/gio/modules
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = en_GB.UTF-8
+# environment
+LANG = C
+# environment
+NIX_XDG_DESKTOP_PORTAL_DIR = /run/current-system/sw/share/xdg-desktop-portal/portals
+# environment
+TERM = dumb
+# environment
+CUPS_DATADIR = /nix/store/3wxf4iirapn9kap9cfkg15r3rc1va3da-cups-progs/share/cups
 # variable set hash-table stats:
-# Load=80/1024=8%, Rehash=0, Collisions=5/107=5%
+# Load=132/1024=13%, Rehash=0, Collisions=19/150=13%
 
 # Pattern-specific Variable Values
 
@@ -179,9 +285,9 @@ SSH_CONNECTION = 78.133.44.80 44258 51.195.254.136 22
 
 # Directories
 
-# . (device 2049, inode 535348): 22 files, no impossibilities.
+# . (device 2054, inode 21241636): 21 files, no impossibilities.
 
-# 22 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -190,7 +296,21 @@ SSH_CONNECTION = 78.133.44.80 44258 51.195.254.136 22
 # Files
 
 # Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
 Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
@@ -201,20 +321,6 @@ Makefile:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-all:
-#  Command line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
 
 # Not a target:
 GNUmakefile:
@@ -231,14 +337,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 309 B / avg = 10 B
-# current buf: size = 8162 B / used = 309 B / count = 30 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 328 B / avg = 11 B
+# current buf: size = 8162 B / used = 328 B / count = 28 / avg = 11 B
 
-# strcache performance: lookups = 33 / hit rate = 9%
+# strcache performance: lookups = 30 / hit rate = 6%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Tue May 28 18:35:19 2024
+# Load=28/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Fri Jan 17 13:05:25 2025
 
  
-make: *** No rule to make target 'all'.  Stop.
-
