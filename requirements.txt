@@ -12,6 +12,6 @@ pymongo==4.3.3
 regex==2023.5.5
 textblob==0.17.1
 tqdm==4.65.0
-uWSGI==2.0.21
+uWSGI==2.0.28
 Werkzeug==2.3.4
 zipp==3.15.0
